@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Position:absolute</title>
+    <style>
+    
+    .box2 {
+    display: inline-block;
+    background: #f89533;
+    width: 400px;
+    height: 50px;
+    color: white;
+    padding: 5px;
+    }
+    .box5{
+        position: absolute;
+        top: 150px;
+        width: 400px;
+        height: 50px;
+        background: green;
+        padding: 5px;
+
+    }
+    .box3 {
+    display: inline-block;
+    background: white;
+    width: 400px;
+    height: 200px;
+    color: white;
+    padding: 5px;
+    position: relative;
+    border: 1px solid #c7c7c7;
+    }
+    #two {
+    position: absolute;
+    top: 8px;
+    left: 9px;
+    z-index: 333;
+    }
+    </style>
+  </head>
+  <body>
+    
+    <div class="box2" id="two">Two</div>
+    <div class="box3" id="three">Three</div>
+    <div class="box4"></div>
+    <div class="box5"></div>
+  </body>
+</html>

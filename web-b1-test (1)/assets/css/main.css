@@ -1,0 +1,14 @@
+*,body{
+		padding: 0;
+		margin: 0;
+		font-family: 'Noto Sans JP', sans-serif;
+	}
+	h1{
+		color: #ff0000;
+	}
+	#c1h{
+		color: green;
+	}
+	.rlt{
+		text-transform: uppercase;
+	}

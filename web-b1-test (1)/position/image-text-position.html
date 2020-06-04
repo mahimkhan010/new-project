@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Positioning Text In an Image</title>
+		<style>
+		.img-container {
+		position: relative;
+		width: 100%;
+		height:100%;
+		background-repeat:none;
+		
+		}
+		.top-left {
+		position: absolute;
+		top: 8px;
+		left: 16px;
+		font-size: 18px;
+		color:#fff;
+		}
+		.top-right {
+		position: absolute;
+		top: 8px;
+		right: 16px;
+		font-size: 18px;
+		color:#fff;
+		}
+		.bottom-left {
+		position: absolute;
+		bottom: 8px;
+		left: 16px;
+		font-size: 18px;
+		color:#fff;
+		}
+		.bottom-right {
+		position: absolute;
+		bottom: 8px;
+		right: 16px;
+		font-size: 18px;
+		color:#fff;
+		}
+		.text-center {
+		position: absolute;
+		left: 0;
+		top: 50%;
+		width: 100%;
+		text-align: center;
+		font-size: 18px;
+		color:#fff;
+		}
+		img {
+		width: 100%;
+		height: auto;
+		opacity: 0.8;
+		}
+		</style>
+	</head>
+	<body>
+		
+		<div class="img-container">
+			<img src="http://satech360.ebookstand.net/wp-content/uploads/2020/03/css3-300x200.png" alt="satt">
+			<div class="top-left">Top Left </div>
+			<div class="top-right">Top Right</div>
+			<div class="bottom-left">Bottom Left</div>
+			<div class="bottom-right">Bottom Right</div>
+			<div class="text-center">Centered</div>
+		</div>
+		
+	</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			/*কোনো HTML Element এ border-image প্রোপার্টি ব্যবহার করতে হলে, প্রথমে ঐ Element এর border প্রোপার্টি সেট করতে হবে।*/
+		#borderimg1 {
+		border: 10px solid transparent;
+		padding: 15px;
+		border-image: url(http://satech360.ebookstand.net/wp-content/uploads/2020/04/css_border_image.jpg) 50 round;
+		}
+		
+		#borderimg2 {
+		border: 20px solid transparent;
+		padding: 15px;
+		border-image: url(http://satech360.ebookstand.net/wp-content/uploads/2020/04/css_border_image.jpg) 20% round;
+		}
+		
+		#borderimg3 {
+		border: 20px solid transparent;
+		padding: 15px;
+		border-image: url(http://satech360.ebookstand.net/wp-content/uploads/2020/04/css_border_image.jpg) 30% round;
+		}
+		</style>
+	</head>
+	<body>
+		
+		<h1>The border-image Property</h1>
+		
+		<p id="borderimg1">border-image: url(css_border_image.jpg) 50 round;</p>
+		<p id="borderimg2">border-image: url(css_border_image.jpg) 20% round;</p>
+		<p id="borderimg3">border-image: url(css_border_image.jpg) 30% round;</p>
+		
+	</body>
+</html>
