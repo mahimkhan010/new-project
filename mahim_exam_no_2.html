@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exam(Find Even nub)</title>
+	<!--******************** bootstarp Css *****************************-->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+<body>
+
+	<input type="text" id="number">
+	<button onclick="myFunction()">
+		Try it
+	</button>
+
+<p id="result"></p>
+
+
+ <script>
+
+ function myFunction(){
+            var num =   document.getElementById('number').value;
+
+            if ( num % 2 == 0){
+                document.getElementById('result').innerHTML = "Entered Number is Even";
+            }
+            else{
+                document.getElementById('result').innerHTML = "Entered Number is not Even";
+            }
+        }
+    </script>
+
+
+
+	<!--***************************** Jquery min js**************************** -->
+		<script src="assets/js/jquery.js"></script>
+		<!--***************************** Bootstrap js************************* -->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
